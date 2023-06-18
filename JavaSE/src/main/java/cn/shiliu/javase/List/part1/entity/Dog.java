@@ -1,5 +1,6 @@
 package cn.shiliu.javase.List.part1.entity;
 
+@lombok.Data
 public class Dog {
     private String name;
     private int    age;

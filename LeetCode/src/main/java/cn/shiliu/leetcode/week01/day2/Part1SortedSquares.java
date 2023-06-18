@@ -19,7 +19,7 @@ public class Part1SortedSquares {
         int right = 0;
         int n = nums.length;
         int[] res = new int[n];
-        // TODO: 2023/6/4 蒋数组求完平方去做
+        // TODO: 2023/6/4 将数组求完平方去做
         for (int i = 0; i < n; i++) {
             res[i] = nums[i] * nums[i];
         }
